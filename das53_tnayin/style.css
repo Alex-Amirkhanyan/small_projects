@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 95%;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main_child {
+    width: 100%;
+    height: 25%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.main_child_car {
+    width: 15%;
+    height: 60%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+button {
+    padding: 30px 80px;
+}
