@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="logo">
+            <div class="logo_child">
+                <img src="logo.png" alt="">
+            </div>
+        </div>
+        <div id="main">
+            <div class="main_question">
+                <div class="main_question_child">
+                    <div class="main_question_child_space">
+                        <p id="text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_options">
+                <div class="main_options_child1">
+                    <div class="main_options_child1_childs">
+                        <button id="btn1" onclick="action1()"><span id="span1"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="btn2" onclick="action2()"><span id="span2"></span></button>
+                    </div>
+                </div>
+                <div class="main_options_child2">
+                    <div class="main_options_child1_childs">
+                        <button id="btn3" onclick="action2()"><span id="span3"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="btn4" onclick="action2()"><span id="span4"></span></button>
+                    </div>
+                </div>
+            </div>
+            <button class="ole" onclick="start()" id="button">Start</button>
+
+        </div>
+        <div id="main2">
+            <div class="main_question">
+                <div class="main_question_child">
+                    <div class="main_question_child_space">
+                        <p id="2nd_text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_options">
+                <div class="main_options_child1">
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn1" onclick="wrong()"><span id="2nd_span1"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn2" onclick="istrue()"><span id="2nd_span2"></span></button>
+                    </div>
+                </div>
+                <div class="main_options_child2">
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn3" onclick="wrong()"><span id="2nd_span3"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn4" onclick="wrong()"><span id="2nd_span4"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="main3">
+            <div class="main_question">
+                <div class="main_question_child">
+                    <div class="main_question_child_space">
+                        <p id="3rd_text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="main_options">
+                <div class="main_options_child1">
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn1" onclick="wrong2()"><span id="3rd_span1"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn2" onclick="wrong2()"><span id="3rd_span2"></span></button>
+                    </div>
+                </div>
+                <div class="main_options_child2">
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn3" onclick="istrue2()"><span id="3rd_span3"></span></button>
+                    </div>
+                    <div class="main_options_child1_childs">
+                        <button id="2nd_btn4" onclick="wrong2()"><span id="3rd_span4"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+<script type="text/javascript" src ="script.js"></script>
+</body>
+</html>
